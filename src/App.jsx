@@ -28,6 +28,12 @@ function App() {
         </Grid>
 
         <ListadoNoticias />
+
+        <footer>
+          <Typography align='right' marginY={5} variant="body1" color="error">
+            Made with ❤ by Daniel Reyes
+          </Typography>
+        </footer>
       </Container>
     </NewsProvider>
   )
